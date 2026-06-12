@@ -66,7 +66,7 @@ class SnoreRecorderApp extends StatelessWidget {
           backgroundColor: Color(0xFF0D0D1A),
           elevation: 0,
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: const Color(0xFF1E1E2E),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),

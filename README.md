@@ -2,6 +2,16 @@
 
 A Flutter POC for snore recording and sleep analysis with FFT-based audio detection, built with Riverpod state management.
 
+## Demo
+
+These are real iOS-Simulator captures from the running app (see [FLOW.md](FLOW.md) for how they were generated).
+
+| Home | History | Insights | Night Report |
+| --- | --- | --- | --- |
+| ![Home](screenshots/01-home.png) | ![History](screenshots/02-history.png) | ![Insights](screenshots/03-insights.png) | ![Night Report](screenshots/04-report.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## Features
 
 - **Audio Recording** - Background audio recording during sleep using platform channels with configurable sensitivity
