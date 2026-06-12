@@ -47,9 +47,7 @@ class AudioAnalyzer {
     );
 
     // Perform FFT
-    final fftResult = FFT().Transform(
-      windowed.map((s) => Complex(s, 0.0)).toList(),
-    );
+    final fftResult = FFT.Transform(windowed);
 
     // Compute magnitude spectrum (first half, due to symmetry)
     final halfSize = _fftSize ~/ 2;
